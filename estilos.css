@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor-imagen{
+    display: flex;
+    aspect-ratio: 1/1;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+}
+img{
+    display: flex;
+    width: 250%;
+    height: 120%;
+    object-fit: cover;
+    object-position: top;
+}
+.contenedor-h1{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    margin: 5%;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 65px;
+    display: flex;
+    color: white;
+    padding: 0;
+    margin: 0;
+    line-height: 1.0;
+
+}
+.profesion{
+    display: flex;
+    color: white;
+    padding: 0; 
+    margin: 0;
+    font-size: 18px; 
+}
+.redes{
+    display: flex;
+    background-color: rgb(227, 103, 31);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: left;
+    padding: 20px;
+    margin: 0;
+    width: 250px;
+}
+li{
+    margin: 5px;
+    display: flex;
+}
+a{
+    font-family: "Lora", serif;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.icono{
+    display: flex;
+    aspect-ratio: 1/1;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
