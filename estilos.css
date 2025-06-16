@@ -92,3 +92,9 @@ a{
     height: 30px;
     object-fit: contain;
 }
+
+@font-face {
+  font-family: "Lora";
+  src: url("fonts/Lora-VariableFont_wght.ttf") format("truetype");
+  src: url("fonts/BebasNeue-Regular.ttf") format("truetype");
+}
