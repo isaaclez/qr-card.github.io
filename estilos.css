@@ -96,5 +96,5 @@ a{
 @font-face {
   font-family: "Lora";
   src: url("fonts/Lora-VariableFont_wght.ttf") format("truetype");
-  src: url("fonts/BebasNeue-Regular.ttf");
+  src: url("fonts/BebasNeue-Regular.ttf") format("truetype");
 }
