@@ -35,19 +35,19 @@ img{
 }
 .contenedor-h1{
     display: flex;
-    width: 250px;
+    width: 60%;
     flex-direction: column;
     margin: 5%;
 }
 h1{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 65px;
+    font-size: 350%;
     display: flex;
     color: white;
     padding: 0;
     margin: 0;
     line-height: 1.0;
-
+    width: 100%;
 }
 .profesion{
     display: flex;
